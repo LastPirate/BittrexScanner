@@ -1,0 +1,29 @@
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\BittrexScanner.exe.config
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\BittrexScanner.exe.manifest
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\BittrexScanner.application
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\BittrexScanner.exe
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\BittrexScanner.pdb
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\Newtonsoft.Json.dll
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\bin\Release\Newtonsoft.Json.xml
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.csprojResolveAssemblyReference.cache
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.BTRXscanner.resources
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.Properties.Resources.resources
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.csproj.GenerateResource.Cache
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.exe.manifest
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.application
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.exe
+c:\users\expo1on\documents\visual studio 2017\Projects\BittrexScanner\BittrexScanner\obj\Release\BittrexScanner.pdb
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\BittrexScanner.exe.config
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\BittrexScanner.exe.manifest
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\BittrexScanner.application
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\BittrexScanner.exe
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\BittrexScanner.pdb
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\Newtonsoft.Json.dll
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\bin\Release\Newtonsoft.Json.xml
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.BTRXscanner.resources
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.Properties.Resources.resources
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.csproj.GenerateResource.Cache
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.exe.manifest
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.application
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.exe
+C:\Users\Expo1on\Documents\Visual Studio 2017\Projects\BittrexScanner +2\BittrexScanner\obj\Release\BittrexScanner.pdb

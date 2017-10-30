@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BittrexScanner.exe" version="1.0.0.15" publicKeyToken="20bb63008f914442" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Custom-Icon-Design-Flatastic-11-Cash.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BittrexScanner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BittrexScanner.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень контроля учетных записей Windows замените узел 
+          requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Если вы хотите использовать виртуализацию файлов и реестра для обратной 
+         совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BittrexScanner.exe" size="204232">
+      <assemblyIdentity name="BittrexScanner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>I+5TDSItr37QRZhJxVE0agMJTXM0/zRIiaMoD+yGvlY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="653824">
+      <assemblyIdentity name="Newtonsoft.Json" version="10.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lz/XDOSOWsQzoQG0KHFoDFHi/roq7sPUAN6kEVrzong=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BittrexScanner.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Custom-Icon-Design-Flatastic-11-Cash.ico" size="178621">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>varR9eJaI0o9RbofRcdeLjZoEZ1JLZ/NyAa5n9tqJbE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EIAU\Expo1on" issuerKeyHash="0b9792c1187ba95fa44136c9428d20dc156533bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>inndGlUv4rtucC5SpU0XBNbqUkel88+dQ4jgkklCjFQ=</DigestValue></Reference></SignedInfo><SignatureValue>cprmyQJm0LChMSffLTkU7g0uX7FK+j4SZ7GSRrtjgaXoRMS1zRZg87fpGtXrguOSntnXfUaFj6r+XYUdAK2c8JWG1jvJwK52nuhoSo3sCVl7scDf1QP/LABBN/YhSLA2fIaCI+kC8lK43Au1VgguRtBKoKsR38tteiai6BY1pYs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tdRgXQnZnu697AJv6FfZ67nneIo1K549mOa6SP99vj8rNFMRyOzV2VtTjFJ23W1oKjzVrS0G5WlmEWR2XhdO+y+7WvSA/Ao+qKlTbGVHqyegh6MxIElK4S3dKZnj/ixweQEVVloIxsBh/Re2nT/TPyr2dlU5E0IOWzwvoPTSUvc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="548c424992e088439dcff3a54752ead604174da5522e706ebbe22f551add798a" Description="" Url=""><as:assemblyIdentity name="BittrexScanner.exe" version="1.0.0.15" publicKeyToken="20bb63008f914442" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EIAU\Expo1on</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ww/XX0ww/c8BVOFibP7CpqYKQUS95AnGsmI6bPgsdaE=</DigestValue></Reference></SignedInfo><SignatureValue>h1B7WTkLExJU1qET5bGKuH+yVvHRzHZo+dHNuI3VrUNrPRbHweKdhmInLKwADKVOISfzL+JzUUMlPHq8PSAtGY4BuB7ZIGPXnmwL8ZJ49MHnu+cdMHTPGZLc8RLmprrSyx20ddwAUOptYjzrzpZJlsw+OIik6QBaOSHTq1QyvOw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tdRgXQnZnu697AJv6FfZ67nneIo1K549mOa6SP99vj8rNFMRyOzV2VtTjFJ23W1oKjzVrS0G5WlmEWR2XhdO+y+7WvSA/Ao+qKlTbGVHqyegh6MxIElK4S3dKZnj/ixweQEVVloIxsBh/Re2nT/TPyr2dlU5E0IOWzwvoPTSUvc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQKjBXKJN3v61AqFI5y9ParzANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARQBJAEEAVQBcAEUAeABwAG8AMQBvAG4wHhcNMTcxMDAxMTMxNTMyWhcNMTgxMDAxMTkxNTMyWjAjMSEwHwYDVQQDHhgARQBJAEEAVQBcAEUAeABwAG8AMQBvAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALXUYF0J2Z7uvewCb+hX2eu553iKNSuePZjmukj/fb4/KzRTEcjs1dlbU4xSdt1taCo81a0tBuVpZhFkdl4XTvsvu1r0gPwKPqipU2xlR6snoIejMSBJSuEt3SmZ4/4scHkBFVZaCMbAYf0Xtp0/0z8q9nZVORNCDls8L6D00lL3AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAo7WXIWE4X7jACJSR0goEoDugQIP3HNJEMka28G+qPVtGtvNibUo6ZQ8dm6hv9RDc6NP1NjNRuATIcdA+lcK8/M1hmZNyUrfZc5cUAWHLlcrHzPkGAlz5VeswRX6sSAI2Ix7SwboFU6YyGEsaO/GZEmWNBLVhnj3cXyUe1hNP6b4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
